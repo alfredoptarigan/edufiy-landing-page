@@ -6,7 +6,6 @@ import Badge from "./Badge";
 import Avatar from "./Avatar";
 
 import { FaUserAlt, FaStar } from "react-icons/fa";
-import { IconContext } from "react-icons";
 
 export default function Card(props) {
   return (
