@@ -23,17 +23,19 @@ export default function Card(props) {
         </div>
         <p className="text-base pt-4 pb-4">{props.title}</p>
         <div className="flex justify-between items-center">
-          <IconContext.Provider value={{ className: "text-blue-500" }}>
-            <div className="flex items-center justify-start">
+          <div className="flex items-center justify-start">
+            <span className="text-blue-500">
               <FaUserAlt />
-              <p className="text-sm font-medium pl-2">{props.students}</p>
-            </div>
+            </span>
+            <p className="text-sm font-medium pl-2">{props.students}</p>
+          </div>
 
-            <div className="flex items-center justify-start">
+          <div className="flex items-center justify-start">
+            <span className="text-blue-500">
               <FaStar />
-              <p className="text-sm font-medium pl-2">{props.rating}</p>
-            </div>
-          </IconContext.Provider>
+            </span>
+            <p className="text-sm font-medium pl-2">{props.rating}</p>
+          </div>
 
           <div className="flex items-center justify-start">
             <Avatar
