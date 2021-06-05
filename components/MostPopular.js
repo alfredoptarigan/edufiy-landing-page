@@ -1,10 +1,18 @@
+import BtnFullRound from "./utils/BtnFullRound";
 import Card from "./utils/Card";
 export default function MostPopular() {
   return (
     <div className="p-3 pb-10 lg:pl-24">
-      <p className="text-2xl mb-3 font-medium text-blue-900">
-        Kelas Populer 🔥
-      </p>
+      <div className="flex justify-between items-center">
+        <p className="text-2xl mb-3 font-medium text-blue-900">
+          Kelas Populer 🔥
+        </p>
+        <BtnFullRound
+          color="gray-200"
+          colorHover="gray-300"
+          title="All Courses"
+        />
+      </div>
       <p className="text-lg mb-5 leading-relaxed text-teal-600">
         Kelas ini dibuat oleh mentor yang sangat ahli dalam bidang nya dan
         <br /> jangan sampai ketinggalan !
