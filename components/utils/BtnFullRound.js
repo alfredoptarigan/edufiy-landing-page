@@ -8,7 +8,7 @@ export default function BtnFullRound(props) {
         props.colorHover
       } transition duration-500 hover:ease-in-out ${
         props.textColor ? props.textColor : "text-black"
-      }`}
+      } ${props.isMobile ? props.isMobile : ""}`}
     >
       {props.title}
     </a>

@@ -3,7 +3,7 @@ import Card from "./utils/Card";
 export default function MostPopular() {
   return (
     <div className="p-3 pb-10 lg:pl-24">
-      <div className="flex justify-between items-center">
+      <div className="md:flex md:justify-between md:items-center">
         <p className="text-2xl mb-3 font-medium text-blue-900">
           Kelas Populer 🔥
         </p>
@@ -11,13 +11,14 @@ export default function MostPopular() {
           color="gray-200"
           colorHover="gray-300"
           title="All Courses"
+          isMobile="hidden md:flex"
         />
       </div>
       <p className="text-lg mb-5 leading-relaxed text-teal-600">
         Kelas ini dibuat oleh mentor yang sangat ahli dalam bidang nya dan
         <br /> jangan sampai ketinggalan !
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <Card
           title="Launch career as a web designer and learning"
           badgeColor="bg-gray-200"

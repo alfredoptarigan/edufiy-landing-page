@@ -11,7 +11,7 @@ export default function Card(props) {
   return (
     <div className="bg-white shadow-md rounded rounded-b-lg hover:shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-6 hover:scale-100">
       <img
-        className="rounded-t-lg w-full h-72"
+        className="rounded-t-lg w-full h-72 object-cover"
         src={props.bannerImagePath}
         alt={props.courseName}
       />
