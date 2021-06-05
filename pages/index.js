@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Introduction from "../components/Introduction";
 import MostPopular from "../components/MostPopular";
 import FavoriteTools from "../components/FavoriteTools";
+import Testimonial from "../components/Testimonial";
 export default function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function Home() {
       <Introduction />
       <MostPopular />
       <FavoriteTools />
+      <Testimonial />
     </div>
   );
 }
