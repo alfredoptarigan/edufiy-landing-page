@@ -2,7 +2,7 @@ import BtnFullRound from "./utils/BtnFullRound";
 import Card from "./utils/Card";
 export default function MostPopular() {
   return (
-    <div className="p-3 pb-10 lg:pl-24">
+    <div className="p-3 pb-24 lg:pl-24">
       <div className="md:flex md:justify-between md:items-center">
         <p className="text-2xl mb-3 font-medium text-blue-900">
           Kelas Populer 🔥
