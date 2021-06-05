@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FavoriteTools() {
   return (
-    <div className="p-3 pb-10 lg:pl-24">
+    <div className="p-3 pb-32 lg:pl-24">
       <div className="flex justify-center items-center flex-col">
         <p className="text-2xl mb-3 font-medium text-blue-900">
           Our Favorite Tools

@@ -2,7 +2,7 @@ import CardTestimonial from "./utils/CardTestimonial";
 
 export default function Testimonial() {
   return (
-    <div className="p-3 pb-24 lg:pl-24 lg:pt-32">
+    <div className="p-3 pb-32 lg:pl-24 ">
       <p className="text-2xl mb-3 font-medium text-blue-900">Our Members</p>
       <p className="text-lg mb-5 leading-relaxed text-teal-600">
         Ulasan dari members yang sudah mengikuti kelas kami!

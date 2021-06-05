@@ -5,6 +5,7 @@ import Introduction from "../components/Introduction";
 import MostPopular from "../components/MostPopular";
 import FavoriteTools from "../components/FavoriteTools";
 import Testimonial from "../components/Testimonial";
+import Ready from "../components/Ready";
 export default function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function Home() {
       <MostPopular />
       <FavoriteTools />
       <Testimonial />
+      <Ready />
     </div>
   );
 }
