@@ -6,6 +6,7 @@ import MostPopular from "../components/MostPopular";
 import FavoriteTools from "../components/FavoriteTools";
 import Testimonial from "../components/Testimonial";
 import Ready from "../components/Ready";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function Home() {
       <FavoriteTools />
       <Testimonial />
       <Ready />
+      <Footer />
     </div>
   );
 }
