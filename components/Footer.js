@@ -7,7 +7,8 @@ export default function Footer() {
           className="flex  lg:flex-row flex-col lg:items-center text-center lg:text-left space-x-2 space-y-2"
         >
           <div className="flex items-center justify-center">
-            <img src="/images/logo.svg" alt="Alf;" width={50} />
+            {/* <img src="/images/logo.svg" alt="Alf;" width={50} /> */}
+            <p className="title text-2xl font-medium">Eduify</p>
           </div>
           <div className="flex flex-col">
             <p className="text-base pl-2 font-medium">
