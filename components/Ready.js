@@ -6,7 +6,7 @@ export default function Ready() {
       <div className="flex justify-center items-center flex-col">
         <svg
           id="Capa_1"
-          enable-background="new 0 0 512.004 512.004"
+          enableBackground="new 0 0 512.004 512.004"
           height="60"
           viewBox="0 0 512.004 512.004"
           width="60"
