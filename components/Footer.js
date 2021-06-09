@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="p-3 pt-32 lg:pl-24  w-full">
+    <footer className="p-3 pt-36 lg:pt-56 lg:pl-24  w-full">
       <nav className="w-full flex flex-col justify-center items-center lg:flex-row lg:items-start lg:justify-between gap-6">
         <a
           href="/"

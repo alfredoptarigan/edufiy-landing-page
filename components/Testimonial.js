@@ -23,7 +23,7 @@ export default function Testimonial() {
           />
           <CardTestimonial
             name="Venti Barbatos"
-            testimonial="Ilmu yang diberikan dapat mudah diterapkan di dunia bisnis !"
+            testimonial="Ilmu yang diberikan dapat mudah diterapkan di dunia bisnis"
             avatar="/images/students/venti.png"
             altName="Venti Barbatos"
           />
