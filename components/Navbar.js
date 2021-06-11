@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import { Transition } from "@headlessui/react";
 
 export default function Navbar() {
@@ -10,12 +11,11 @@ export default function Navbar() {
           Eduify <span className="text-orange-500">.</span>
         </p>
         <div className="hidden lg:flex items-center space-x-5 ">
-          <a
-            href="#"
-            className="hover:text-blue-600 transition  duration-600 hover:ease-in-out"
-          >
-            Home
-          </a>
+          <Link href="/">
+            <a className="hover:text-blue-600 transition  duration-600 hover:ease-in-out">
+              Home
+            </a>
+          </Link>
           <a
             href="#"
             className="hover:text-blue-600 transition  duration-600 hover:ease-in-out"
@@ -34,12 +34,11 @@ export default function Navbar() {
           >
             Testimonial
           </a>
-          <a
-            href="#"
-            className="px-4 py-2 rounded bg-warmGray-300 text-white hover:bg-warmGray-400 transition  duration-600 hover:ease-in-out"
-          >
-            Masuk
-          </a>
+          <Link href="/login">
+            <a className="px-4 py-2 rounded bg-warmGray-300 text-white hover:bg-warmGray-400 transition  duration-600 hover:ease-in-out">
+              Masuk
+            </a>
+          </Link>
           <a
             href="#"
             className="px-4 py-2 rounded bg-orange-300 text-white hover:bg-orange-400 transition  duration-600 hover:ease-in-out"
