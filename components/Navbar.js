@@ -7,9 +7,11 @@ export default function Navbar() {
   return (
     <nav className="p-5">
       <div className="flex justify-between items-center">
-        <p className="title text-4xl">
-          Eduify <span className="text-orange-500">.</span>
-        </p>
+        <Link href="/">
+          <a className="title text-4xl">
+            Eduify <span className="text-orange-500">.</span>
+          </a>
+        </Link>
         <div className="hidden lg:flex items-center space-x-5 ">
           <Link href="/">
             <a className="hover:text-blue-600 transition  duration-600 hover:ease-in-out">
@@ -39,12 +41,11 @@ export default function Navbar() {
               Masuk
             </a>
           </Link>
-          <a
-            href="#"
-            className="px-4 py-2 rounded bg-orange-300 text-white hover:bg-orange-400 transition  duration-600 hover:ease-in-out"
-          >
-            Daftar
-          </a>
+          <Link href="/register">
+            <a className="px-4 py-2 rounded bg-orange-300 text-white hover:bg-orange-400 transition  duration-600 hover:ease-in-out">
+              Daftar
+            </a>
+          </Link>
         </div>
         <div className="lg:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
